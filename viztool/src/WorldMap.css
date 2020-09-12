@@ -1,0 +1,158 @@
+#wMap {
+  height: 100%;
+  background-color: black;
+}
+
+.origin {
+  fill: #15db95 !important;
+  stroke: white;
+  stroke-width: 0.1;
+}
+
+.destination {
+  fill: white !important;
+  stroke: white;
+  fill-opacity: 0.2;
+  stroke-width: 0.1;
+}
+
+
+#slider{
+border-color: white;
+border-style: solid;
+border-width: 3pt;
+background-color: #182433 !important ;
+margin-left: 10px;
+margin-right: 20px;
+margin-top:10px;
+height:300px
+
+}
+
+.ana{
+  background-color: #182433 !important;
+  height: 300px !important;
+
+
+}
+
+.Map {
+  background-color: #182433 !important;
+}
+.curve:hover {
+  /* fill: #15DB95;*/
+  stroke: #15db95;
+  fill-opacity: 0.8;
+  /* stroke-width: 0.7;*/
+  /* stroke-dasharray:1,10;
+    animation: dash 2s linear; */
+  /* stroke-dasharray: 1,10;
+    stroke-dashoffset: 100;*/
+  /*animation: dasho 1s infinite;*/
+}
+.curve {
+  stroke-dasharray: 0.1, 5;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards, dasho 5s 1s infinite;
+}
+#t5 {
+  text-emphasis-color: #15db95;
+  border-color: pink;
+  border-style: solid;
+  border-width: 1px;
+  background-color: yellow !important;
+  transform: rotate(0deg);
+}
+
+#Elmodal1 {
+  width: 100%;
+  align-items: center;
+}
+#imagen {
+  height: 100%;
+  width: 100%;
+}
+#imagen1 {
+  height: 100%;
+  width: 100%;
+}
+#imagen2 {
+  height: 100%;
+  width: 100%;
+}
+#imagen3 {
+  height: 100%;
+  width: 100%;
+}
+#imagen4 {
+  height: 100%;
+  width: 100%;
+}
+#contcar {
+  align-items: center;
+}
+
+#car {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+#car1 {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+#car4 {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+#car3 {
+  height: 300;
+  width: 300;
+  align-items: center;
+}
+#car2 {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.carousel-caption {
+  border: solid;
+  border-color: #15db95;
+  border-radius: 1%;
+  background-color: #203044 !important;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.hundred {
+  height: 100%;
+}
+/*
+!*<text id="t5">
+<textPath  href="#MyPath">
+  576.300
+</textPath>
+</text>
+*!
+*/
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dasho {
+  from {
+    stroke-dashoffset: 100;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}

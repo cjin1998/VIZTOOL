@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+#buttons {
+  margin-left: 0px;
+}
+#mainBar {
+  height: 100%;
+  width: 100%;
+  background-color: white !important;
+}
+#buttons {
+  float: right;
+
+  color: white !important;
+  font-family: "Monserrat", sans-serif;
+}
+
+#buttons1 {
+  float: right;
+  color: white;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 600;
+}
+
+#buttons2 {
+  color: white !important;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 600;
+}
+#buttons3 {
+  float: right;
+  color: white;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 600;
+}
+#buttons4 {
+  float: right;
+  color: white;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 600;
+}
+
+.buttons_Test {
+  margin-left: 1150px;
+  margin-top: 30px;
+}
+.mr-auto #butons {
+  margin-left: 1150px;
+}
+.bg-dark {
+  background-color: #0a76e2 !important;
+}
+
+a {
+  color: white;
+}
+.barColor {
+  background-color: #203044;
+}

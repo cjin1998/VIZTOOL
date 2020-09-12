@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+.origin{fill: #15DB95 !important ;stroke: white;stroke-width: 0.1;}
+.destination{fill: white !important;stroke: white;fill-opacity: 0.2;stroke-width: 0.1;}
+#Colombia2, #Peru2, #Ecuador2, #Chile2 {fill: white;stroke: white;fill-opacity: 0.2;stroke-width: 0.1;}
+
+
+#NetherlandsO,#AfghanistanO,#AngolaO,#United_KingdomO,#AlbaniaO,#FinlandO,#AndorraO,#United_Arab_EmiratesO,#ArgentinaO,#ArmeniaO
+,#United_States_of_AmericaO
+,#AntarcticaO
+,#AustraliaO
+,#FranceO
+,#Antigua_and_BarbudaO
+,#AustraliaO
+,#AustriaO
+,#AzerbaijanO
+,#BurundiO
+,#BelgiumO
+,#BeninO
+,#Burkina_FasoO
+,#Bangladesh_O
+,#Bulgaria_O
+,#Bahrain_O
+,#The_BahamasO
+,#Bosnia_and_HerzegovinaO
+,#FranceO
+,#BelarusO
+,#BelizeO
+,#United_KingdomO
+,#BoliviaO
+,#BrazilO
+,#BarbadosO
+,#BruneiO
+,#BhutanO
+,#BotswanaO
+,#Central_African_RepublicO
+,#CanadaO
+,#SwitzerlandO
+,#ChileO
+,#ChinaO
+,#Ivory_CoastO
+,#CameroonO
+,#Democratic_Republic_of_the_CongoO
+,#Republic_of_CongoO
+,#New_ZealandO
+,#ColombiaO
+,#ComorosO
+,#Cape_VerdeO
+,#Costa_RicaO
+,#CubaO
+,#NetherlandsO
+,#United_KingdomO
+,#Northern_CyprusO
+,#CyprusO
+,#Czech_RepublicO
+,#GermanyO
+,#DjiboutiO
+,#DominicaO
+,#DenmarkO
+,#Dominican_RepublicO
+,#AlgeriaO
+,#EcuadorO
+,#EgyptO
+,#EritreaO
+,#SpainO
+,#EstoniaO
+,#EthiopiaO
+,#FinlandO
+,#FijiO
+,#United_KingdomO
+,#FranceO
+,#DenmarkO
+,#Federated_States_of_MicronesiaO
+,#GabonO
+,#United_KingdomO
+,#GeorgiaO
+,#United_KingdomO
+,#GhanaO
+,#GuineaO
+,#GambiaO
+,#Guinea_BissauO
+,#Equatorial_GuineaO
+,#GreeceO
+,#GrenadaO
+,#DenmarkO
+,#GuatemalaO
+,#United_States_of_AmericaO
+,#GuyanaO
+,#ChinaO
+,#AustraliaO
+,#HondurasO
+,#CroatiaO
+,#HaitiO
+,#HungaryO
+,#IndonesiaO
+,#United_KingdomO
+,#IndiaO
+,#AustraliaO
+,#United_KingdomO
+,#IrelandO
+,#IranO
+,#IraqO
+,#IcelandO
+,#IsraelO
+,#ItalyO
+,#JamaicaO
+,#United_KingdomO
+,#JordanO
+,#JapanO
+,#KashmirO
+,#KazakhstanO
+,#KenyaO
+,#KyrgyzstanO
+,#CambodiaO
+,#KiribatiO
+,#Saint_Kitts_and_NevisO
+,#South_KoreaO
+,#KosovoO
+,#KuwaitO
+,#LaosO
+,#LebanonO
+,#LiberiaO
+,#LibyaO
+,#SaintLuciaO
+,#LiechtensteinO
+,#SriLankaO
+,#LesothoO
+,#LithuaniaO
+,#LuxembourgO
+,#LatviaO
+,#ChinaO
+,#FranceO
+,#MoroccoO
+,#MonacoO
+,#MoldovaO
+,#MadagascarO
+,#MaldivesO
+,#MexicoO
+,#MarshallIslandsO
+,#MacedoniaO
+,#MaliO
+,#MaltaO
+,#MyanmarO
+,#MontenegroO
+,#MongoliaO
+,#UnitedStatesofAmericaO
+,#MozambiqueO
+,#MauritaniaO
+,#UnitedKingdomO
+,#MauritiusO
+,#MalawiO
+,#MalaysiaO
+,#NamibiaO
+,#FranceO
+,#NigerO
+,#AustraliaO
+,#NigeriaO
+,#NicaraguaO
+,#NewZealandO
+,#NetherlandsO
+,#NorwayO
+,#NepalO
+,#NauruO
+,#NewZealandO
+,#OmanO
+,#PakistanO
+,#PanamaO
+,#UnitedKingdomO
+,#PeruO
+,#PhilippinesO
+,#PalauO
+,#Papua_New_GuineaO
+,#PolandO
+,#United_States_of_AmericaO
+,#North_KoreaO
+,#PortugalO
+,#ParaguayO
+,#IsraelO
+,#FranceO
+,#QatarO
+,#RomaniaO
+,#RussiaO
+,#RwandaO
+,#Western_SaharaO
+,#Saudi_ArabiaO
+,#SudanO
+,#South_SudanO
+,#SenegalO
+,#SingaporeO
+,#United_KingdomO
+,#United_KingdomO
+,#Solomon_IslandsO
+,#Sierra_LeoneO
+,#El_SalvadorO
+,#San_MarinoO
+,#SomalilandO
+,#SomaliaO
+,#FranceO
+,#Republic_of_SerbiaO
+,#Sao_Tome_and_PrincipeO
+,#SurinameO
+,#SlovakiaO
+,#SloveniaO
+,#SwedenO
+,#SwazilandO
+,#NetherlandsO
+,#SeychellesO
+,#SyriaO
+,#United_KingdomO
+,#ChadO
+,#TogoO
+,#ThailandO
+,#TajikistanO
+,#TurkmenistanO
+,#East_TimorO
+,#TongaO
+,#Trinidad_and_TobagoO
+,#TunisiaO
+,#TurkeyO
+,#TaiwanO
+,#United_Republic_of_TanzaniaO
+,#UgandaO
+,#UkraineO
+,#UruguayO
+,#United_States_of_AmericaO
+,#UzbekistanO
+,#VaticanO
+,#Saint_Vincent_and_the_GrenadinesO
+,#VenezuelaO
+,#United_KingdomO
+,#United_States_of_AmericaO
+,#VietnamO
+,#VanuatuO
+,#FranceO
+,#SamoaO
+,#YemenO
+,#South_AfricaO
+,#ZambiaO
+,#ZimbabweO {fill: #15DB95;stroke: white;stroke-width: 0.1; }
+
+
+/*
+#Venezuela{
+    fill: white;
+stroke: white;
+stroke-width: 0.1;
+}*/
+/*
+#Venezuela2{
+    fill: #15DB95;
+stroke: white;
+stroke-width: 0.1;
+}
+
+/*
+
+#Colombia2 {fill: white;    stroke: white;
+    fill-opacity: 0.2;
+    stroke-width: 0.1;}
+
+*/
+    
+
+
+
+/*
+
+#Colombia:active {  fill: yellow;    stroke: white;
+    fill-opacity: 0.2;
+    stroke-width: 0.1;} */
+
+/*
+#Colombia2 {fill: pink;    stroke: white;
+    
+        stroke-width: 0.1;}
+*/
+
+#NORTE_DE_SANTANDER2 {fill: #15DB95;    stroke: white;
+        fill-opacity: 0.4;
+        stroke-width: 0.1;}
+
+      /*  #Peru2 {fill: pink;    stroke: white;
+    
+            stroke-width: 0.1;}*/
+#CORDOBA2 {fill: white;    stroke: white;
+            fill-opacity: 0.2;
+            stroke-width: 0.1;}
+
+         /*   #Brazil2 {fill: pink;    stroke: white;
+    
+                stroke-width: 0.1;} */
+#ANTIOQUIA2 {fill: white;    stroke: white;
+    fill-opacity: 0.2;
+    stroke-width: 0.1;}
+  /*  #Ecuador2 {fill: pink;    stroke: white;
+    
+        stroke-width: 0.1;} */
+#CUNDINAMARCA2 {fill: white;    stroke: white;
+        fill-opacity: 0.2;
+        stroke-width: 0.1;}
+       /* #Chile2 {fill: pink;    stroke: white;
+            stroke-width: 0.1;} */
+#META2 {fill: white;    stroke: white;
+        fill-opacity: 0.2;
+        stroke-width: 0.1;}
+       /* #Chile2 {fill: pink;    stroke: white;
+            stroke-width: 0.1;} */
+
+#BOLIVAR2 {fill: white;    stroke: white;
+        fill-opacity: 0.2;
+        stroke-width: 0.1;}
+       /* #Chile2 {fill: pink;    stroke: white;
+            stroke-width: 0.1;} */
+
+#BOYACA2 {fill: white;    stroke: white;
+        fill-opacity: 0.2;
+        stroke-width: 0.1;}
+       /* #Chile2 {fill: pink;    stroke: white;
+            stroke-width: 0.1;} */
+
+
+
+
+/*COLOMBIA*/
+
+/*
+#VAUPES {fill: rgb(104, 179, 160);    stroke-width: 0.1;}
+#VICHADA {fill: rgb(22, 106, 109);    stroke-width: 0.1;}
+#ANTIOQUIA {fill: rgb(163, 255, 250);   stroke-width: 0.1;}
+#ANTIOQUIA2 {fill: white;   stroke-width: 0.1;}
+#ATLANTICO {fill: rgb(27, 87, 88);       stroke-width: 0.1;}
+#SANTAFE_DE_BOGOTA {fill: rgb(66, 158, 143);       stroke-width: 0.1;}
+#BOLIVAR {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#BOYACA {fill: rgb(48, 126, 113);       stroke-width: 0.1;}
+#CALDAS {fill: rgb(59, 167, 143);       stroke-width: 0.1;}
+#CAQUETA {fill: rgb(168, 255, 248);       stroke-width: 0.1;}
+#CAUCA {fill: rgb(47, 141, 133);       stroke-width: 0.1;}
+#CESAR {fill: rgb(163, 255, 250);       stroke-width: 0.1;}
+#CORDOBA {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#CUNDINAMARCA {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+#CHOCO {fill: rgb(156, 255, 242);       stroke-width: 0.1;}
+#HUILA {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#LA_GUAJIRA {fill: rgb(55, 156, 131);       stroke-width: 0.1;}
+#MAGDALENA{fill: rgb(92, 173, 160);       stroke-width: 0.1;}
+#META {fill: rgb(43, 121, 114);       stroke-width: 0.1;}
+#NARIÑO {fill: rgb(124, 255, 200);       stroke-width: 0.1;}
+#NORTE_DE_SANTANDER {fill: rgb(124, 255, 222);       stroke-width: 0.1;}
+#QUINDIO {fill: rgb(41, 128, 128);       stroke-width: 0.1;}
+#RISARALDA {fill: rgb(124, 255, 216);       stroke-width: 0.1;}
+#SANTANDER {fill: rgb(40, 134, 122);       stroke-width: 0.1;}
+#SUCRE {fill: rgb(40, 119, 119);       stroke-width: 0.1;}
+#TOLIMA {fill: rgb(124, 255, 179);       stroke-width: 0.1;}
+#VALLE_DEL_CAUCA {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#ARAUCA {fill: rgb(44, 148, 139);       stroke-width: 0.1;}
+#CASANARE {fill: rgb(52, 107, 103);       stroke-width: 0.1;}
+#PUTUMAYO {fill: rgb(54, 128, 124);       stroke-width: 0.1;}
+#AMAZONAS {fill: rgb(95, 194, 153);       stroke-width: 0.1;}
+#GUAINIA {fill: rgb(105, 179, 156);       stroke-width: 0.1;}
+#GUAVIARE {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+
+*/
+
+
+/*PAISES TURQUIA*/
+
+/*PAISES TURQUIA*/
+#Trabzon {fill: rgb(104, 179, 160);       stroke-width: 0.1;}
+#Zonguldak {fill: rgb(104, 179, 160);       stroke-width: 0.1;}
+#Yozgat {fill: rgb(104, 179, 160);       stroke-width: 0.1;}
+#Yalova {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+#Van {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+#Uşak {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+#Tunceli {fill: rgb(105, 179, 156);       stroke-width: 0.1;}
+#Adana {fill: rgb(105, 179, 156);       stroke-width: 0.1;}
+#Adıyaman {fill: rgb(105, 179, 156);    stroke-width: 0.1;}
+
+#Afyon {fill: rgb(95, 194, 153);    stroke-width: 0.1;}
+#Ağrı {fill: rgb(95, 194, 153);   stroke-width: 0.1;}
+#Aksaray {fill: rgb(95, 194, 153);       stroke-width: 0.1;}
+
+#Amasya {fill: rgb(54, 128, 124);       stroke-width: 0.1;}
+#Ankara {fill: rgb(54, 128, 124);       stroke-width: 0.1;}
+#Antalya {fill: rgb(54, 128, 124);       stroke-width: 0.1;}
+
+#Ardahan {fill: rgb(52, 107, 103);       stroke-width: 0.1;}
+#Ardahan {fill: rgb(52, 107, 103);       stroke-width: 0.1;}
+#Aydın {fill: rgb(52, 107, 103);       stroke-width: 0.1;}
+
+#Balıkesir {fill: rgb(44, 148, 139);       stroke-width: 0.1;}
+#Bartın {fill: rgb(44, 148, 139);       stroke-width: 0.1;}
+#Batman {fill: rgb(44, 148, 139);       stroke-width: 0.1;}
+
+#Bayburt {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Bilecik {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Bingöl {fill: rgb(22, 106, 109);      stroke-width: 0.1;}
+
+#Bitlis{fill: rgb(175, 246, 255);       stroke-width: 0.1;}
+#Bolu {fill: rgb(124, 240, 255);       stroke-width: 0.1;}
+#Burdur {fill: rgb(124, 240, 255);       stroke-width: 0.1;}
+
+#Bursa {fill: rgb(124, 255, 179);       stroke-width: 0.1;}
+#Çanakkale {fill: rgb(124, 255, 179);       stroke-width: 0.1;}
+#Çankırı {fill: rgb(124, 255, 179);       stroke-width: 0.1;}
+
+#Çorum {fill: rgb(40, 119, 119);       stroke-width: 0.1;}
+#Denizli {fill: rgb(40, 119, 119);       stroke-width: 0.1;}
+#Diyarbakır {fill: rgb(40, 119, 119);       stroke-width: 0.1;}
+
+#Düzce {fill: rgb(40, 134, 122);       stroke-width: 0.1;}
+#Edirne {fill: rgb(40, 134, 122);       stroke-width: 0.1;}
+#Elazığ {fill: rgb(40, 134, 122);       stroke-width: 0.1;}
+
+#Erzincan {fill: rgb(124, 255, 216);       stroke-width: 0.1;}
+#Erzurum {fill: rgb(124, 255, 216);       stroke-width: 0.1;}
+#Eskişehir {fill: rgb(124, 255, 216);       stroke-width: 0.1;}
+
+#Gaziantep {fill: rgb(41, 128, 128);       stroke-width: 0.1;}
+#Giresun {fill: rgb(104, 179, 160);    stroke-width: 0.1;}
+#Gümüşhane {fill: rgb(22, 106, 109);    stroke-width: 0.1;}
+#Hakkari {fill: rgb(163, 255, 250);   stroke-width: 0.1;}
+#Hatay {fill: rgb(27, 87, 88);       stroke-width: 0.1;}
+#Iğdır {fill: rgb(66, 158, 143);       stroke-width: 0.1;}
+#Isparta {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#İstanbul {fill: rgb(48, 126, 113);       stroke-width: 0.1;}
+#İzmir {fill: rgb(59, 167, 143);       stroke-width: 0.1;}
+#Kahramanmaraş {fill: rgb(168, 255, 248);       stroke-width: 0.1;}
+#Karabük {fill: rgb(47, 141, 133);       stroke-width: 0.1;}
+#Karaman {fill: rgb(163, 255, 250);       stroke-width: 0.1;}
+#kars {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Kastamonu {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+#Kayseri {fill: rgb(156, 255, 242);       stroke-width: 0.1;}
+#Kilis {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Kırıkkale {fill: rgb(55, 156, 131);       stroke-width: 0.1;}
+#Kırklareli{fill: rgb(92, 173, 160);       stroke-width: 0.1;}
+#Kırşehir {fill: rgb(43, 121, 114);       stroke-width: 0.1;}
+#Kocaeli {fill: rgb(124, 255, 200);       stroke-width: 0.1;}
+#Konya {fill: rgb(124, 255, 222);       stroke-width: 0.1;}
+#Kütahya {fill: rgb(41, 128, 128);       stroke-width: 0.1;}
+#Malatya {fill: rgb(22, 106, 109);    stroke-width: 0.1;}
+#Manisa {fill: rgb(163, 255, 250);   stroke-width: 0.1;}
+#Mersin {fill: rgb(27, 87, 88);       stroke-width: 0.1;}
+#Muğla {fill: rgb(66, 158, 143);       stroke-width: 0.1;}
+#Mus {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Nevşehir {fill: rgb(48, 126, 113);       stroke-width: 0.1;}
+#Niğde {fill: rgb(59, 167, 143);       stroke-width: 0.1;}
+#Ordu {fill: rgb(168, 255, 248);       stroke-width: 0.1;}
+#Osmaniye {fill: rgb(47, 141, 133);       stroke-width: 0.1;}
+#Rize {fill: rgb(163, 255, 250);       stroke-width: 0.1;}
+#Sakarya {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Samsun {fill: rgb(75, 179, 165);       stroke-width: 0.1;}
+#Şanlıurfa {fill: rgb(156, 255, 242);       stroke-width: 0.1;}
+
+
+#Siirt {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Sinop {fill: rgb(55, 156, 131);       stroke-width: 0.1;}
+#Şırnak{fill: rgb(92, 173, 160);       stroke-width: 0.1;}
+#Sivas {fill: rgb(43, 121, 114);       stroke-width: 0.1;}
+#Tekirdağ {fill: rgb(124, 255, 200);       stroke-width: 0.1;}
+#Tokat {fill: rgb(124, 255, 222);       stroke-width: 0.1;}
+#Trabzon {fill: rgb(41, 128, 128);       stroke-width: 0.1;}
+#Tunceli {fill: rgb(22, 106, 109);    stroke-width: 0.1;}
+#Uşak {fill: rgb(163, 255, 250);   stroke-width: 0.1;}
+#Van {fill: rgb(27, 87, 88);       stroke-width: 0.1;}
+#Yalova {fill: rgb(66, 158, 143);       stroke-width: 0.1;}
+#Yozgat {fill: rgb(22, 106, 109);       stroke-width: 0.1;}
+#Zonguldak {fill: rgb(48, 126, 113);       stroke-width: 0.1;}
+
+
+
+#cMap{
+    height: 1000px;
+    background-color: #e3e7eb ;
+}
+
+.country:hover {
+/*fill: #15DB95;
+stroke: #15DB95;*/
+fill: white;
+stroke: white;
+fill-opacity: 0.2;
+stroke-width: 0.1;
+}
+
+.jiu
+{color: white;
+font-size: 20pt;}
+
+.country{
+    fill: #203044;
+    stroke: #a3a3ab;
+    stroke-width: 0.1;
+
+}
+
+
+
+
+.countries:hover {
+/*fill: #15DB95;
+stroke: #15DB95;*/
+fill: #15DB95;
+stroke: white;
+fill-opacity: 0.2;
+stroke-width: 0.1;
+}
+
+.countryC{
+    fill: white;
+    stroke: white;
+    stroke-width: 0.1;
+}
+
+#yo{
+    fill: #15DB95;
+    stroke: #15DB95;
+    stroke-width: 0.01;
+    font-family: 'Monserrat', sans-serif;
+}
+
+
+.tooltiptext {
+background-color: #16a085;
+border: 1px solid #16a085;
+border-radius:10px;
+width: auto;
+height: 50px;
+}
+
+
+
+#Aux{
+    padding-top: 10px;
+height: 50px;
+width: 100%;
+background-color: #182433;
+}
+
+#dropdown-item-button-1{
+    width: 200px !important;
+    background-color: #203044;
+    border-color: white;
+    border-radius: 0px;
+}
+
+.largo .dropdown-item{
+
+
+color: white;
+
+}
+.largo > .dropdown-menu.show {
+    background-color: #203044;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 15.5%;
+    margin-left: -20px;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+
+.curve2:hover {
+   /* fill: #15DB95;*/
+    stroke: #203044;
+    fill-opacity: 0.7;
+   /* stroke-width: 0.7;*/
+   /* stroke-dasharray:1,10;
+    animation: dash 2s linear; */
+   /* stroke-dasharray: 1,10;
+    stroke-dashoffset: 100;*/
+    /*animation: dasho 1s infinite;*/
+    }
+.curve2{
+    stroke-dasharray: 0.1,1;
+    stroke-dashoffset: 100;
+    animation: dash2 15s linear backwards infinite; 
+}
+
+@keyframes dash2 {
+    to {
+      stroke-dashoffset: 1000;
+    }
+  }
+
+@keyframes dasho2 {
+    from{
+    stroke-dashoffset: 1000;
+    }
+    
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
